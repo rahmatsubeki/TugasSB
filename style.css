@@ -1,4 +1,13 @@
+.halaman{
+      width: 600px;
+      height: 150px;
+      background-color: cadetblue;
+      color; white;
+}
+
 .tampil{
+      width: 600px;
+      height: 300px;
       bacgroundcolor: drakblue;
       color; white;
 }
