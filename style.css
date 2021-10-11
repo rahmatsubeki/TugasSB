@@ -1,13 +1,43 @@
-.halaman{
-      width: 600px;
-      height: 150px;
-      background-color: cadetblue;
-      color; white;
+body {
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: rgb(91, 91, 126);
+  background-attachment: fixed;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.halaman {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 0 10px 5px black;
+  color: black;
+  box-sizing: border-box;
 }
 
-.tampil{
-      width: 600px;
-      height: 300px;
-      bacgroundcolor: drakblue;
-      color; white;
+.tampil {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(43, 52, 185, 0.5);
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  box-shadow: 0 0 10px 5px black;
+  color: black;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
 }
