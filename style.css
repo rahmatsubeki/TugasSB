@@ -1,8 +1,7 @@
 body {
-  background: url('https://cdn-brilio-net.akamaized.net/news/2018/04/25/141995/750xauto-7-tokoh-utama-animasi-kartun-ini-usilnya-bikin-kamu-ikut-geregetan-180425t.jpg');
+  background-color: #1e2526;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   margin-bottom: 0px;
   padding: 0px;
   background-attachment: fixed;
@@ -14,11 +13,11 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(2 255 91);
   padding: 20px;
   width: 300px;
   height: 200px;
-  box-shadow: 0 0 10px 5px black;
+  box-shadow: 0 0 10px 5px #84f3048f;
   color: black;
   box-sizing: border-box;
 }
@@ -32,7 +31,7 @@ body {
   padding: 20px;
   width: 600px;
   height: 300px;
-  box-shadow: 0 0 10px 5px black;
+  box-shadow: 0 0 10px 5px #003affbf;
   color: black;
   box-sizing: border-box;
 }
@@ -47,4 +46,14 @@ h1 {
 
 table, th, td {
   border:1px solid black;
+}
+.INFO{
+    left: 70%;
+    top: 48%;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 10px 5px #894e4e;
+    box-sizing: border-box;
 }
