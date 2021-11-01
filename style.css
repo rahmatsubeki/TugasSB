@@ -9,17 +9,19 @@ body {
   height: 100vh;
 }
 .halaman {
-  position: fixed;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(2 255 91);
-  padding: 20px;
-  width: 300px;
-  height: 200px;
-  box-shadow: 0 0 10px 5px #84f3048f;
-  color: black;
-  box-sizing: border-box;
+  position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:rgb(40, 90, 225);
+	padding: 20px;
+	width: 300px;
+	height: 220px;
+	box-shadow: 0 0 10px 5px black;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	color: whitesmoke;
 }
 
 .tampil {
